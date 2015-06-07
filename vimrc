@@ -57,3 +57,12 @@ colorscheme darkblue
 " let g:syntastic_auto_loc_list = 1
 " let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
+
+command! -nargs=0 -range SortWords call SortWords()
+function! SortWords()
+    call setreg('"', join(sort(split(getreg('"'), ", ")), ", "))
+    " gv - reselect previously selected area
+    normal! gv
+    " "0p - paste from buffer
+    normal! "0p
+endfunction
