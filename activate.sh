@@ -6,6 +6,7 @@ binary=$(basename $filepath)
 working_dir=`pwd`
 
 cd ~
+ln -si "$working_dir/$folder/vim/" .vim
 ln -si "$working_dir/$folder/vimrc" .vimrc
 
 # initialize Vim plugins
