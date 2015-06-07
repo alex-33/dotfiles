@@ -6,6 +6,6 @@ binary=$(basename $filepath)
 working_dir=`pwd`
 
 cd ~
-ln -s "$working_dir/$folder/vimrc" .vimrc
+ln -si "$working_dir/$folder/vimrc" .vimrc
 
 cd -
