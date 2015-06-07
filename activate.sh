@@ -5,6 +5,8 @@ folder=$(dirname $filepath)
 binary=$(basename $filepath)
 working_dir=`pwd`
 
+git submodule update
+
 cd ~
 ln -si "$working_dir/$folder/vim/" .vim
 ln -si "$working_dir/$folder/vimrc" .vimrc
