@@ -13,6 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'kien/ctrlp.vim'
+" Plugin 'fisadev/vim-isort' " discuss isort within the group
 " Plugin 'scrooloose/syntastic'
 " Plugin 'Lokaltog/vim-easymotion'
 
@@ -43,6 +44,9 @@ set ic " ignore case in search patterns
 set hlsearch " highlight search matches
 
 colorscheme darkblue
+
+"=== vim-isort configuration
+" let g:vim_isort_map = '<C-i>'
 
 "== Syntatic options
 " set statusline+=%#warningmsg#
