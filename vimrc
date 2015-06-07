@@ -13,6 +13,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'kien/ctrlp.vim'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'Lokaltog/vim-easymotion'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,3 +43,13 @@ set ic " ignore case in search patterns
 set hlsearch " highlight search matches
 
 colorscheme darkblue
+
+"== Syntatic options
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
