@@ -60,6 +60,7 @@ colorscheme darkblue
 
 command! -nargs=0 -range SortWords call SortWords()
 function! SortWords()
+    normal! gvy
     call setreg('"', join(sort(split(getreg('"'), ", ")), ", "))
     " gv - reselect previously selected area
     normal! gv
