@@ -35,9 +35,9 @@ filetype plugin indent on    " required
 
 syntax on
 
-set shiftwidth=4 " number of spaces to use for each step of (auto)indent.  Used for 'cindent', >>, <<, etc. 
 set expandtab " expand tab to spaces
-"set softtabstop=4
+set shiftwidth=4 " number of spaces to use for each step of (auto)indent.  Used for 'cindent', >>, <<, etc.
+set softtabstop=4
 
 set nu " print the line number in front of each line
 set ic " ignore case in search patterns
