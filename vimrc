@@ -11,11 +11,16 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'kien/ctrlp.vim'
-" Plugin 'fisadev/vim-isort' " discuss isort within the group
 Plugin 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
+Plugin 'majutsushi/tagbar'
+
+" Plugin 'fisadev/vim-isort'
 " Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,11 +57,14 @@ colorscheme darkblue
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+ 
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_aggregate_errors = 1
+let g:syntastic_loc_list_height = 5
+let g:syntastic_python_flake8_args = "--max-line-length=120"
 
 command! -nargs=0 -range SortWords call SortWords()
 function! SortWords()
