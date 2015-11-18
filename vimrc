@@ -14,7 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'kien/ctrlp.vim'
 " Plugin 'fisadev/vim-isort' " discuss isort within the group
-" Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " Plugin 'Lokaltog/vim-easymotion'
 
 " All of your Plugins must be added before the following line
@@ -49,14 +49,14 @@ colorscheme darkblue
 " let g:vim_isort_map = '<C-i>'
 
 "== Syntatic options
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 command! -nargs=0 -range SortWords call SortWords()
 function! SortWords()
