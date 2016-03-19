@@ -17,6 +17,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
+Plugin 'flazz/vim-colorschemes'
 
 " Plugin 'fisadev/vim-isort'
 " Plugin 'Lokaltog/vim-easymotion'
@@ -48,7 +49,8 @@ set nu " print the line number in front of each line
 set ic " ignore case in search patterns
 set hlsearch " highlight search matches
 
-colorscheme darkblue
+" colorscheme darkblue
+colorscheme Benokai
 
 "=== vim-isort configuration
 " let g:vim_isort_map = '<C-i>'
