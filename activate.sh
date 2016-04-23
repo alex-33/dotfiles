@@ -5,6 +5,7 @@ folder=$(dirname $filepath)
 binary=$(basename $filepath)
 working_dir=`pwd`
 
+git submodule init
 git submodule update
 
 cd ~
