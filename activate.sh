@@ -17,3 +17,6 @@ ln -si "$working_dir/$folder/vimrc" .vimrc
 vim +PluginInstall +qall
 
 cd -
+
+# install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
