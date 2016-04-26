@@ -8,6 +8,10 @@ working_dir=`pwd`
 git submodule init
 git submodule update
 
+# install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# have to call ./activate.sh twice =(
+
 cd ~
 rm -r .vim
 ln -si "$working_dir/$folder/vim" .vim
@@ -18,5 +22,8 @@ vim +PluginInstall +qall
 
 cd -
 
-# install zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cd ~
+echo "trying to setup personal .zshrc ..."
+ln -si "$working_dir/$folder/zshrc" .oh-my-zsh/custom/common.zsh
+echo $'\360\237\215\251' " [DONE]"
+cd -
