@@ -49,6 +49,8 @@ set nu " print the line number in front of each line
 set ic " ignore case in search patterns
 set hlsearch " highlight search matches
 
+" 256-color terminal
+set t_Co=256
 " colorscheme darkblue
 colorscheme Benokai
 
