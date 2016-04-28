@@ -5,6 +5,7 @@ folder=$(dirname $filepath)
 binary=$(basename $filepath)
 working_dir=`pwd`
 
+git config --global alias.dag "log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order"
 git submodule update --init
 
 # install zsh
