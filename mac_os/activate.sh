@@ -8,6 +8,7 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 brew install coreutils
 brew install pkg-config
 brew install htop
+brew install wget
 brew cask install google-drive
 brew cask install transmit
 
