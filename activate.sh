@@ -5,8 +5,7 @@ folder=$(dirname $filepath)
 binary=$(basename $filepath)
 working_dir=`pwd`
 
-git submodule init
-git submodule update
+git submodule update --init
 
 # install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
