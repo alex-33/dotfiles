@@ -5,6 +5,7 @@ initial_folder=`pwd`
 science_folder=$initial_folder/$(dirname $filepath)
 
 brew tap homebrew/science
+brew cask install rstudio
 brew install opencv
 brew install python
 pip install --upgrade pip
