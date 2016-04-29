@@ -7,8 +7,15 @@ science_folder=$initial_folder/$(dirname $filepath)
 brew tap homebrew/science
 brew install R
 brew cask install rstudio
+
 brew install opencv
 brew install python
+
+# the following packages are used to experiment with biological data
+brew install phylip
+brew cask install xquartz
+brew install emboss
+
 pip install --upgrade pip
 pip install -U virtualenv
 
