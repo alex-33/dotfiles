@@ -10,6 +10,7 @@ brew cask install rstudio
 
 brew install opencv
 brew install python
+brew install graphviz
 
 # the following packages are used to experiment with biological data
 brew install phylip

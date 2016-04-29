@@ -1,6 +1,7 @@
+graphviz
 ipython
 jupyter
 matplotlib
 numpy
-scipy
 scikit-image
+scipy
