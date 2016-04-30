@@ -11,6 +11,7 @@ brew install htop
 brew install wget
 brew cask install google-drive
 brew cask install transmit
+brew cask install spectacle
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
