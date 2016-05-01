@@ -19,6 +19,12 @@ Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
 Plugin 'flazz/vim-colorschemes'
 
+" install markdown highlighter
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_new_list_item_indent = 0
+
 " Plugin 'fisadev/vim-isort'
 " Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'klen/python-mode'
