@@ -7,6 +7,7 @@ science_folder=$initial_folder/$(dirname $filepath)
 brew tap homebrew/science
 brew install R
 brew cask install rstudio
+
 # install R packages
 function install_R_package {
     if [[ ! -z $2 ]]
@@ -29,14 +30,16 @@ install_R_package tree
 install_R_package randomForest
 install_R_package gbm
 
-brew install opencv
-brew install python
-brew install graphviz
-
 # the following packages are used to experiment with biological data
 brew install phylip
 brew cask install xquartz
 brew install emboss
+brew install muscle
+
+# install mxnet for DNN
+brew install opencv
+brew install python
+brew install graphviz
 
 pip install --upgrade pip
 pip install -U virtualenv
