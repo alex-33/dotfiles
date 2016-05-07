@@ -46,7 +46,8 @@ pip install -U virtualenv
 
 git submodule update --init --recursive
 
-read -p "please update $science_folder/mxnet/dmlc-core/make/dmlc.mk according to: https://github.com/dmlc/mxnet/issues/1802" yn
+echo "please update $science_folder/mxnet/dmlc-core/make/dmlc.mk according to: https://github.com/dmlc/mxnet/issues/1802"
+read -p "press any button when complete ... " yn
 
 cd $science_folder/mxnet
     cp make/osx.mk ./config.mk
@@ -56,11 +57,12 @@ cd $initial_folder
 
 
 cd $science_folder
-    virtualenv $science_folder/venv
-        source $science_folder/venv/bin/activate
+    virtualenv venv
+        source venv/bin/activate
         pip install -U -r requirements.txt
-        cd $science_folder/mxnet/python
+        cd mxnet/python
         python setup.py install
         cd $science_folder
+        ln -s /usr/local/lib/python2.7/site-packages/cv2.so venv/lib/python2.7/site-packages/cv2.so
     deactivate
 cd $initial_folder
