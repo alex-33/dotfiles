@@ -3,6 +3,9 @@
 *.DS_Store
 *.swp
 
+# ==== Java specific ===-
+*.iml
+
 # ==== Python specific ===
 # Byte-compiled / optimized / DLL files
 __pycache__/
