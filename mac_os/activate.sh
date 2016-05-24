@@ -9,6 +9,7 @@ brew install coreutils
 brew install pkg-config
 brew install htop
 brew install wget
+brew cask install sshfs
 brew cask install google-drive
 brew cask install transmit
 brew cask install spectacle
