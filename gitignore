@@ -3,8 +3,13 @@
 *.DS_Store
 *.swp
 
+# ==== Development ====
+/build
+/test/build
+
 # ==== Java specific ===-
 *.iml
+*.idea
 
 # ==== Python specific ===
 # Byte-compiled / optimized / DLL files
