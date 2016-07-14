@@ -5,6 +5,7 @@ folder=$(dirname $filepath)
 binary=$(basename $filepath)
 working_dir=`pwd`
 
+git config --global push.default simple
 git config --global alias.dag "log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order"
 git config --global core.editor /usr/bin/vim
 git submodule update --init
