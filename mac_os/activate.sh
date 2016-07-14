@@ -12,6 +12,8 @@ brew install wget
 brew install pandoc
 brew cask install iterm2
 brew cask install sshfs
+brew cask install google-chrome
+brew install chrome-cli
 brew cask install google-drive
 brew cask install transmit
 brew cask install spectacle

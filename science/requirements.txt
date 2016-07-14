@@ -5,6 +5,7 @@ jupyter
 matplotlib
 numpy
 pandas
+patsy
 scikit-image
 scikit-learn
 scipy
