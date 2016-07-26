@@ -29,6 +29,7 @@ install_R_package e1071
 install_R_package tree
 install_R_package randomForest
 install_R_package gbm
+install_R_package "shapiro.test"
 
 # the following packages are used to experiment with biological data
 brew install phylip
