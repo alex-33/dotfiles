@@ -7,6 +7,7 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install coreutils
 brew install pkg-config
+brew install vim
 brew install htop
 brew install wget
 brew install pandoc

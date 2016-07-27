@@ -18,6 +18,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'UltiSnips'  " requires Vim v7.4+
 
 " install markdown highlighter
 Plugin 'godlygeek/tabular'
