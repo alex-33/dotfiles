@@ -3,6 +3,7 @@ graphviz
 ipython
 jupyter
 matplotlib
+mock
 numpy
 pandas
 patsy
