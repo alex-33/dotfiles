@@ -20,6 +20,7 @@ brew cask install transmit
 brew cask install spectacle
 brew cask install flycut
 brew cask install java
+brew cask install paintbrush
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
