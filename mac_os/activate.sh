@@ -11,6 +11,7 @@ brew install vim
 brew install htop
 brew install wget
 brew install pandoc
+brew install ack
 brew cask install iterm2
 brew cask install sshfs
 brew cask install google-chrome
