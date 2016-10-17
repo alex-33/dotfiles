@@ -23,6 +23,7 @@ brew cask install flycut
 brew cask install java
 brew cask install paintbrush
 brew cask install the-unarchiver
+brew cask install telegram-desktop
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
