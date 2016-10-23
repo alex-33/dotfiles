@@ -26,6 +26,7 @@ brew cask install paintbrush
 brew cask install the-unarchiver
 brew cask install telegram-desktop
 brew cask install docker-toolbox
+brew cask install viber
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
