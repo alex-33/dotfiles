@@ -12,6 +12,7 @@ brew install htop
 brew install wget
 brew install pandoc
 brew install ack
+brew install gpg
 
 brew cask install iterm2
 brew cask install sshfs
