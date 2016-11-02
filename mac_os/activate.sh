@@ -13,6 +13,7 @@ brew install wget
 brew install pandoc
 brew install ack
 brew install gpg
+brew install selenium-server-standalone
 
 brew cask install iterm2
 brew cask install sshfs
@@ -28,6 +29,7 @@ brew cask install the-unarchiver
 brew cask install telegram-desktop
 brew cask install docker-toolbox
 brew cask install viber
+brew cask install firefox
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
