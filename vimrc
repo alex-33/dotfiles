@@ -104,3 +104,9 @@ function! SortWords()
     " "0p - paste from buffer
     normal! "0p
 endfunction
+
+command! -nargs=0 -range IPythonDebug call IPythonDebug()
+function! IPythonDebug()
+    normal! ofrom IPython import embed; embed()
+endfunction
+map <C-I> :call IPythonDebug()<CR>
