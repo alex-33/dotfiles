@@ -110,3 +110,9 @@ function! IPythonDebug()
     normal! ofrom IPython import embed; embed()
 endfunction
 map <C-I> :call IPythonDebug()<CR>
+
+command! -nargs=0 -range PDB call PDB()
+function! PDB()
+    normal! ofrom pdb import set_trace; set_trace()
+endfunction
+map <C-Y> :call PDB()<CR>
