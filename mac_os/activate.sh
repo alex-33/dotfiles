@@ -31,6 +31,7 @@ brew cask install telegram-desktop
 brew cask install docker-toolbox
 brew cask install viber
 brew cask install firefox
+brew cask install vagrant
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
