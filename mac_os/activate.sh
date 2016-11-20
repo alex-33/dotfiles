@@ -15,6 +15,7 @@ brew install ack
 brew install gpg
 brew install selenium-server-standalone
 brew install geckodriver
+brew install tor
 
 brew cask install iterm2
 brew cask install sshfs
