@@ -4,6 +4,7 @@ ipython
 jupyter
 matplotlib
 mock
+nltk
 numpy
 pandas
 patsy

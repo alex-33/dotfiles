@@ -26,3 +26,4 @@ install_R_package tree
 install_R_package randomForest
 install_R_package gbm
 install_R_package "shapiro.test"
+install_R_package "tidyverse"
