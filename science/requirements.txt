@@ -14,4 +14,5 @@ scikit-image
 scikit-learn
 scipy
 statsmodels
+tensorflow
 xlrd
