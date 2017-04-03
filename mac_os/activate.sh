@@ -39,6 +39,7 @@ vagrant plugin install vagrant-hostmanager
 brew cask install utorrent
 brew cask install vlc
 brew cask install djview
+brew cask install mysqlworkbench
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
