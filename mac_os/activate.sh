@@ -17,6 +17,7 @@ brew install selenium-server-standalone
 brew install geckodriver
 brew install tor
 brew install mysql-connector-c
+brew install mysql@5.5
 
 brew cask install iterm2
 brew cask install sshfs
