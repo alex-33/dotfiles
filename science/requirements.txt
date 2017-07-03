@@ -16,3 +16,4 @@ scipy
 statsmodels
 tensorflow
 xlrd
+requests
