@@ -17,3 +17,5 @@ statsmodels
 tensorflow
 xlrd
 requests
+lxml
+pygments
