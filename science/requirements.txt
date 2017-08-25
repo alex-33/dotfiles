@@ -19,3 +19,4 @@ xlrd
 requests
 lxml
 pygments
+gym
