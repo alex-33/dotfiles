@@ -20,3 +20,4 @@ requests
 lxml
 pygments
 gym
+pyyaml
