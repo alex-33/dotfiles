@@ -20,4 +20,5 @@ scipy
 seaborn
 statsmodels
 tensorflow
+theano
 xlrd
