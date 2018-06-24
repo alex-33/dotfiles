@@ -43,6 +43,7 @@ brew cask install djview
 brew cask install mysqlworkbench
 brew cask install tunnelblick
 brew cask install whatsapp
+brew cask install tunnelbear
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
