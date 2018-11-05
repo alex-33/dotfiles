@@ -46,6 +46,8 @@ brew cask install whatsapp
 brew cask install tunnelbear
 brew cask install slack
 brew cask install jupyter-notebook-viewer  # only starting OS X 10.12+
+brew cask install bluej
+brew cask install eclipse-java
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
