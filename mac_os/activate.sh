@@ -49,6 +49,7 @@ brew cask install jupyter-notebook-viewer  # only starting OS X 10.12+
 brew cask install bluej
 brew cask install eclipse-java
 brew cask install wechat
+brew cask install gimp
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
