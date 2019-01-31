@@ -21,4 +21,5 @@ seaborn
 statsmodels
 tensorflow
 theano
+xgboost
 xlrd

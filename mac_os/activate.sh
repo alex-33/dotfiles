@@ -56,4 +56,5 @@ brew cask install anaconda
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
-# brew install gcc@7
+brew install gcc@7 --enable-cxx
+brew link gcc@7
