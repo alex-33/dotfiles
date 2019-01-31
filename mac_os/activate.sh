@@ -52,6 +52,8 @@ brew cask install eclipse-java
 brew cask install wechat
 brew cask install gimp
 brew cask install chromedriver
+brew cask install anaconda
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
+# brew install gcc@7
