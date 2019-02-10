@@ -20,6 +20,7 @@ brew install mysql-connector-c
 brew install mysql@5.5
 brew install python3
 brew install grafana
+brew install media-info
 
 brew cask install iterm2
 brew cask install sshfs
