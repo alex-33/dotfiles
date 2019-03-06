@@ -55,6 +55,7 @@ brew cask install wechat
 brew cask install gimp
 brew cask install chromedriver
 brew cask install anaconda
+brew cask install weka
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
