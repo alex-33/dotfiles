@@ -56,6 +56,7 @@ brew cask install gimp
 brew cask install chromedriver
 brew cask install anaconda
 brew cask install weka
+brew cask install miniconda
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
