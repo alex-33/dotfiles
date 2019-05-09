@@ -57,6 +57,7 @@ brew cask install chromedriver
 brew cask install anaconda
 brew cask install weka
 brew cask install miniconda
+/usr/local/miniconda3/bin/conda init zsh
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
