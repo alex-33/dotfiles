@@ -3,4 +3,5 @@ jupyter
 matplotlib
 pandas
 seaborn
+scikit-learn
 xlrd
