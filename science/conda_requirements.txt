@@ -1,1 +1,6 @@
+cvxpy
 jupyter
+matplotlib
+pandas
+seaborn
+xlrd
