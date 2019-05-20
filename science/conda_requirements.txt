@@ -1,6 +1,7 @@
 cvxpy
 jupyter
 matplotlib
+openpyxl
 pandas
 seaborn
 scikit-learn
