@@ -1,5 +1,6 @@
 cvxpy
 jupyter
+keras
 lightgbm
 matplotlib
 openpyxl
