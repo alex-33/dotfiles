@@ -5,6 +5,7 @@ lightgbm
 matplotlib
 openpyxl
 pandas
-seaborn
 scikit-learn
+seaborn
+shap
 xlrd
