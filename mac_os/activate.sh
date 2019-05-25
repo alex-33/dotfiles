@@ -22,6 +22,7 @@ brew install python3
 brew install grafana
 brew install media-info
 brew install tree
+brew install libomp
 
 brew cask install iterm2
 brew cask install sshfs

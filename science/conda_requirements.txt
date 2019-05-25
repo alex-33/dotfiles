@@ -1,5 +1,6 @@
 cvxpy
 jupyter
+lightgbm
 matplotlib
 openpyxl
 pandas
