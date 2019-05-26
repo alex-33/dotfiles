@@ -23,6 +23,7 @@ brew install grafana
 brew install media-info
 brew install tree
 brew install libomp
+brew install tmux
 
 brew cask install iterm2
 brew cask install sshfs
