@@ -1,4 +1,5 @@
 cvxpy
+geopandas
 jupyter
 keras
 lightgbm
@@ -8,4 +9,5 @@ pandas
 scikit-learn
 seaborn
 shap
+shapely
 xlrd
