@@ -11,6 +11,7 @@ matplotlib
 memory_profiler
 openpyxl
 pandas
+pytest
 scikit-learn
 seaborn
 shap
