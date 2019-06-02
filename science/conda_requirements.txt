@@ -1,6 +1,7 @@
 cvxpy
 geopandas
 jupyter
+jupyter_nbextensions_configurator
 keras
 lightgbm
 matplotlib
