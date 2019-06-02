@@ -6,7 +6,9 @@ jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
 keras
 lightgbm
+line_profiler
 matplotlib
+memory_profiler
 openpyxl
 pandas
 scikit-learn
