@@ -12,6 +12,7 @@ pandas
 patsy
 pygments
 pytest
+pytest-dependency
 pyyaml
 requests
 scikit-image
