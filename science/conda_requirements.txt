@@ -19,3 +19,4 @@ shap
 shapely
 xlrd
 xlwt
+requests
