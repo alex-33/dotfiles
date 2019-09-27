@@ -20,3 +20,4 @@ shapely
 xlrd
 xlwt
 requests
+pylint
