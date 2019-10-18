@@ -56,7 +56,8 @@ brew cask install eclipse-java
 brew cask install wechat
 brew cask install gimp
 brew cask install chromedriver
-brew cask install anaconda
+# as soon as we install miniconda we have no need to install anaconda
+# brew cask install anaconda
 brew cask install weka
 brew cask install miniconda
 /usr/local/miniconda3/bin/conda init zsh
