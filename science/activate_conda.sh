@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -x
+
 conda create -n science
 conda activate science
 

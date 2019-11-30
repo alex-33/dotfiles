@@ -11,6 +11,7 @@ matplotlib
 memory_profiler
 nbconvert
 openpyxl
+orange3
 pandas
 pylint
 pytest
