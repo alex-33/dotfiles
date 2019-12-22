@@ -24,6 +24,7 @@ brew install media-info
 brew install tree
 brew install libomp
 brew install tmux
+brew install shyaml
 
 brew cask install iterm2
 brew cask install sshfs
