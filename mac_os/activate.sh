@@ -25,6 +25,7 @@ brew install tree
 brew install libomp
 brew install tmux
 brew install shyaml
+brew install gdrive
 
 brew cask install iterm2
 brew cask install sshfs
