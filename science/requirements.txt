@@ -1,4 +1,5 @@
 cvutils
+gdown
 graphviz
 gym
 ipython
