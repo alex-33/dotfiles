@@ -65,6 +65,7 @@ brew cask install miniconda
 /usr/local/miniconda3/bin/conda init zsh
 # see changes in $HOME/.zshrc
 brew cask install virtualbox
+brew cask install obs
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
