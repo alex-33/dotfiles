@@ -27,6 +27,7 @@ brew install tmux
 brew install shyaml
 brew install gdrive
 brew install telegraf
+brew install hey
 
 brew cask install iterm2
 brew cask install sshfs
