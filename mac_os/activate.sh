@@ -71,6 +71,7 @@ brew cask install obs
 
 brew tap microsoft/git
 brew install --cask git-credential-manager-core
+brew install gh
 
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
