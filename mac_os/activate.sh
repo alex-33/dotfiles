@@ -69,6 +69,9 @@ brew cask install miniconda
 brew cask install virtualbox
 brew cask install obs
 
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
+
 brew tap homebrew/versions
 brew install gcc49 --enable-cxx
 brew install gcc@7 --enable-cxx
