@@ -43,7 +43,7 @@ let g:vim_markdown_new_list_item_indent = 0
 " Plugin 'fisadev/vim-isort'
 " Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'klen/python-mode'
-" Plugin 'lbrayner/vim-rzip'
+Plugin 'lbrayner/vim-rzip'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
