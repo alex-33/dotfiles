@@ -38,7 +38,8 @@ brew install hey
 brew install workflowy
 
 brew install --cask iterm2
-brew install sshfs
+# brew install --cask macfuse
+# brew install sshfs
 brew install --cask google-chrome
 brew install chrome-cli
 brew install --cask google-drive
