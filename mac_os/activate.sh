@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+set -x
+# https://web.archive.org/web/20110314180918/http://www.davidpashley.com/articles/writing-robust-shell-scripts.html
+set -e
 
 # show full pathes in Finder
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
@@ -17,7 +20,8 @@ brew install selenium-server-standalone
 brew install geckodriver
 brew install tor
 brew install mysql-connector-c
-brew install mysql@5.5
+# brew install mysql@5.5
+brew install mysql
 brew install python3
 brew install grafana
 brew install media-info
@@ -30,51 +34,52 @@ brew install telegraf
 brew install hey
 brew install workflowy
 
-brew cask install iterm2
-brew cask install sshfs
-brew cask install google-chrome
+brew install --cask iterm2
+brew install --cask sshfs
+brew install --cask google-chrome
 brew install chrome-cli
-brew cask install google-drive
-brew cask install transmit
-brew cask install spectacle
-brew cask install flycut
-brew cask install java
-brew cask install paintbrush
-brew cask install the-unarchiver
-brew cask install telegram-desktop
-brew cask install docker-toolbox
-brew cask install viber
-brew cask install firefox
-brew cask install vagrant
+brew install --cask google-drive
+brew install --cask transmit
+brew install --cask spectacle
+brew install --cask flycut
+brew install --cask java
+brew install --cask paintbrush
+brew install --cask the-unarchiver
+brew install --cask telegram-desktop
+brew install --cask docker-toolbox
+brew install --cask viber
+brew install --cask firefox
+brew install --cask vagrant
 vagrant plugin install vagrant-hostmanager
-brew cask install utorrent
-brew cask install vlc
-brew cask install djview
-brew cask install mysqlworkbench
-brew cask install tunnelblick
-brew cask install whatsapp
-brew cask install tunnelbear
-brew cask install slack
-brew cask install jupyter-notebook-viewer  # only starting OS X 10.12+
-brew cask install bluej
-brew cask install eclipse-java
-brew cask install wechat
-brew cask install gimp
-brew cask install chromedriver
+brew install --cask utorrent
+brew install --cask vlc
+brew install --cask djview
+brew install --cask mysqlworkbench
+# brew install --cask tunnelblick
+brew install --cask whatsapp
+# brew install --cask tunnelbear
+brew install --cask slack
+brew install --cask jupyter-notebook-viewer  # only starting OS X 10.12+
+# brew cask install bluej
+# brew cask install eclipse-java
+brew install --cask wechat
+brew install --cask gimp
+brew install --cask chromedriver
 # as soon as we install miniconda we have no need to install anaconda
 # brew cask install anaconda
-brew cask install weka
-brew cask install miniconda
-/usr/local/miniconda3/bin/conda init zsh
-# see changes in $HOME/.zshrc
-brew cask install virtualbox
-brew cask install obs
+brew install --cask weka
+brew install --cask miniconda
+brew install --cask virtualbox
+brew install --cask obs
 
 brew tap microsoft/git
 brew install --cask git-credential-manager-core
 brew install gh
 
-brew tap homebrew/versions
-brew install gcc49 --enable-cxx
-brew install gcc@7 --enable-cxx
-brew link gcc@7
+# brew tap homebrew/versions
+# brew install gcc49 --enable-cxx
+# brew install gcc@7 --enable-cxx
+# brew link gcc@7
+
+/usr/local/miniconda3/bin/conda init zsh
+# see changes in $HOME/.zshrc
