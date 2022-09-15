@@ -18,7 +18,6 @@ nbconvert
 nltk
 numpy
 openpyxl
-orange3
 pandas
 patsy
 pygments
@@ -36,8 +35,13 @@ seaborn
 shap
 shapely
 statsmodels
-tensorflow
+# tensorflow
 theano
 xgboost
 xlrd
 xlwt
+
+# temporarily commented, until it will be fixed
+# orange3
+# PyQt5.sip  # required for Orange, but the latest versions are not stable
+# pyqt5==5.14.0  # required for Orange, but the latest versions are not stable

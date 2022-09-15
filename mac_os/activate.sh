@@ -75,6 +75,10 @@ brew tap microsoft/git
 brew install --cask git-credential-manager-core
 brew install gh
 
+# required from python science packages:
+brew install cmake
+brew install gdal  # to work with geospatial data
+
 # brew tap homebrew/versions
 # brew install gcc49 --enable-cxx
 # brew install gcc@7 --enable-cxx
