@@ -48,10 +48,8 @@ brew install --cask flycut
 brew install java
 brew install --cask paintbrush
 brew install --cask the-unarchiver
-brew install --cask telegram-desktop
 # brew install --cask virtualbox
 # brew install --cask docker-toolbox
-brew install --cask viber
 brew install --cask firefox
 sudo softwareupdate --install-rosetta
 brew install --cask vagrant
@@ -61,17 +59,19 @@ vagrant plugin install vagrant-hostmanager
 brew install --cask vlc
 brew install --cask djview
 brew install --cask mysqlworkbench
-brew install --cask whatsapp
-brew install --cask slack
 brew install --cask jupyter-notebook-viewer  # only starting OS X 10.12+
-brew install --cask wechat
 brew install --cask gimp
 brew install --cask chromedriver
 brew install --cask weka
 brew install --cask miniconda
 brew install --cask obs
 
-# install messengers (TODO: reorganize script by categories)
+# install messengers
+brew install --cask slack
+brew install --cask telegram-desktop
+brew install --cask viber
+brew install --cask wechat
+brew install --cask whatsapp
 brew install zoom
 
 brew tap microsoft/git
