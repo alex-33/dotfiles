@@ -71,6 +71,9 @@ brew install --cask weka
 brew install --cask miniconda
 brew install --cask obs
 
+# install messengers (TODO: reorganize script by categories)
+brew install zoom
+
 brew tap microsoft/git
 brew install --cask git-credential-manager-core
 brew install gh
