@@ -81,10 +81,5 @@ brew install gh
 brew install cmake
 brew install gdal  # to work with geospatial data
 
-# brew tap homebrew/versions
-# brew install gcc49 --enable-cxx
-# brew install gcc@7 --enable-cxx
-# brew link gcc@7
-
 /opt/homebrew/bin/conda init zsh
 # see changes in $HOME/.zshrc
