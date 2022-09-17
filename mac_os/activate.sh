@@ -54,8 +54,7 @@ brew install --cask firefox
 sudo softwareupdate --install-rosetta
 brew install --cask vagrant
 vagrant plugin install vagrant-hostmanager
-# see https://www.utorrent.com/downloads/mac/
-# brew install --cask utorrent
+brew install --cask webtorrent
 brew install --cask vlc
 brew install --cask djview
 brew install --cask mysqlworkbench
