@@ -67,6 +67,7 @@ brew install --cask obs
 brew install --cask spotify
 
 # install messengers
+brew install --cask discord
 brew install --cask slack
 brew install --cask telegram-desktop
 brew install --cask viber
