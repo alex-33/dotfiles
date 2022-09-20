@@ -64,6 +64,7 @@ brew install --cask chromedriver
 brew install --cask weka
 brew install --cask miniconda
 brew install --cask obs
+brew install --cask spotify
 
 # install messengers
 brew install --cask slack
