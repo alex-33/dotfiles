@@ -35,6 +35,7 @@ brew install gdrive
 brew install telegraf
 brew install hey
 brew install workflowy
+brew install yarn  # used to build some visulization python packages
 
 brew install --cask iterm2
 # brew install --cask macfuse
