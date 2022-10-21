@@ -67,7 +67,11 @@ brew install --cask gimp
 brew install --cask chromedriver
 brew install --cask weka
 brew install --cask miniconda
-brew install --cask camtasia
+# Camtasia old license is only applicable to old versions:
+# http://www.techsmith.com/download/licenses/camtasia.asp?ver=9
+# compatibility: https://support.techsmith.com/hc/en-us/articles/219910027
+# upgrade: https://www.techsmith.com/store/camtasia/upgrade
+# brew install --cask camtasia
 brew install --cask obs
 brew install --cask spotify
 
