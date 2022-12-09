@@ -55,6 +55,8 @@ brew install --cask the-unarchiver
 # brew install --cask virtualbox
 # brew install --cask docker-toolbox
 brew install --cask firefox
+brew install --cask tor-browser
+
 sudo softwareupdate --install-rosetta
 brew install --cask vagrant
 vagrant plugin install vagrant-hostmanager
