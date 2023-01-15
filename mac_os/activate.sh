@@ -50,6 +50,8 @@ brew install --cask transmit
 brew install --cask spectacle
 brew install --cask flycut
 brew install java
+# see https://stackoverflow.com/a/65601197
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 brew install --cask paintbrush
 brew install --cask the-unarchiver
 # brew install --cask virtualbox
