@@ -88,6 +88,8 @@ brew install --cask wechat
 brew install --cask whatsapp
 brew install zoom
 
+brew install qpdf
+
 brew tap microsoft/git
 brew install --cask git-credential-manager-core
 brew install gh
