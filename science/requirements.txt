@@ -5,6 +5,7 @@ gdown
 geopandas
 graphviz
 gym
+img2pdf
 ipython
 jupyter
 keras
@@ -20,6 +21,7 @@ numpy
 openpyxl
 pandas
 patsy
+pikepdf
 pygments
 pylint
 pytest
