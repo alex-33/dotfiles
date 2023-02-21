@@ -78,6 +78,7 @@ brew install --cask miniconda
 # brew install --cask camtasia
 brew install --cask obs
 brew install --cask spotify
+brew install --cask drawio
 
 # install messengers
 brew install --cask discord
