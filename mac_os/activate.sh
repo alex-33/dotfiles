@@ -66,6 +66,7 @@ brew install --cask webtorrent
 brew install --cask vlc
 brew install --cask djview
 brew install --cask mysqlworkbench
+brew install --cask db-browser-for-sqlite
 brew install --cask jupyter-notebook-viewer  # only starting OS X 10.12+
 brew install --cask gimp
 brew install --cask chromedriver
