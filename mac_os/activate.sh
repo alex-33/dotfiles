@@ -80,6 +80,7 @@ brew install --cask miniconda
 brew install --cask obs
 brew install --cask spotify
 brew install --cask drawio
+brew install --cask pycharm-ce
 
 # install messengers
 brew install --cask discord
