@@ -90,6 +90,7 @@ brew install --cask viber
 brew install --cask wechat
 brew install --cask whatsapp
 brew install zoom
+brew install --cask skype-for-business
 
 brew install qpdf
 
