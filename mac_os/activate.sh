@@ -36,6 +36,10 @@ brew install telegraf
 brew install hey
 brew install workflowy
 
+# Big Data
+brew install openjdk@11  # compatible with PySpark 3.4.1
+# echo "export JAVA_HOME=`/usr/libexec/java_home -v 11`" >> ~/.zshrc
+
 # used to build some visulization python packages
 brew install yarn
 brew install node
