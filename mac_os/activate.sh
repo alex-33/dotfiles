@@ -39,6 +39,7 @@ brew install workflowy
 # Big Data
 brew install openjdk@11  # compatible with PySpark 3.4.1
 # echo "export JAVA_HOME=`/usr/libexec/java_home -v 11`" >> ~/.zshrc
+# see also: https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b
 
 # used to build some visulization python packages
 brew install yarn
