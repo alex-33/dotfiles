@@ -36,6 +36,7 @@ brew install telegraf
 brew install hey
 brew install workflowy
 brew install jq
+brew install qrencode
 
 # Big Data
 brew install openjdk@11  # compatible with PySpark 3.4.1
