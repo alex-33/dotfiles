@@ -88,6 +88,7 @@ brew install --cask obs
 brew install --cask spotify
 brew install --cask drawio
 brew install --cask pycharm-ce
+brew install --cask android-file-transfer
 
 # install messengers
 brew install --cask discord
