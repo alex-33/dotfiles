@@ -16,7 +16,6 @@ brew install pkg-config
 brew install vim
 brew install htop
 brew install wget
-brew install pandoc
 brew install ack
 brew install gpg
 brew install selenium-server-standalone
@@ -37,6 +36,12 @@ brew install hey
 brew install workflowy
 brew install jq
 brew install qrencode
+
+# pdf tooling
+brew install pandoc
+brew install --cask wkhtmltopdf
+brew install tidy-html5
+brew install --cask miktex-console
 
 # Big Data
 brew install openjdk@11  # compatible with PySpark 3.4.1
@@ -89,8 +94,6 @@ brew install --cask spotify
 brew install --cask drawio
 brew install --cask pycharm-ce
 brew install --cask android-file-transfer
-brew install --cask wkhtmltopdf
-brew install tidy-html5
 
 # install messengers
 brew install --cask discord
