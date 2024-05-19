@@ -94,6 +94,7 @@ brew install --cask spotify
 brew install --cask drawio
 brew install --cask pycharm-ce
 brew install --cask android-file-transfer
+brew install --cask qlmarkdown
 
 # install messengers
 brew install --cask discord
