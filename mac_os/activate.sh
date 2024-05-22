@@ -95,6 +95,7 @@ brew install --cask drawio
 brew install --cask pycharm-ce
 brew install --cask android-file-transfer
 brew install --cask qlmarkdown
+brew install ollama
 
 # install messengers
 brew install --cask discord
