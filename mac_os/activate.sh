@@ -96,6 +96,7 @@ brew install --cask pycharm-ce
 brew install --cask android-file-transfer
 brew install --cask qlmarkdown
 brew install ollama
+brew install --cask wpsoffice
 
 # install messengers
 brew install --cask discord
