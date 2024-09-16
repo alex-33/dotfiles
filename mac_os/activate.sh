@@ -93,6 +93,7 @@ brew install --cask obs
 brew install --cask spotify
 brew install --cask drawio
 brew install --cask pycharm-ce
+brew install --cask vscodium
 brew install --cask android-file-transfer
 brew install --cask qlmarkdown
 brew install ollama
