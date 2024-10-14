@@ -113,7 +113,8 @@ brew install --cask skype-for-business
 brew install qpdf
 
 brew tap microsoft/git
-brew install --cask git-credential-manager-core
+# brew install --cask git-credential-manager-core  -- deprecated
+brew install --cask git-credential-manager
 brew install gh
 
 # required from python science packages:
