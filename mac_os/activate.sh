@@ -111,6 +111,7 @@ brew install zoom
 brew install --cask skype-for-business
 
 brew install qpdf
+brew install imagemagick
 
 brew tap microsoft/git
 # brew install --cask git-credential-manager-core  -- deprecated
