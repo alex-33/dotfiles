@@ -23,6 +23,7 @@ brew install geckodriver
 brew install tor
 brew install mysql-connector-c
 brew install mysql
+brew install redis
 brew install python3
 brew install grafana
 brew install media-info
