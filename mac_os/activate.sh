@@ -24,6 +24,7 @@ brew install tor
 brew install mysql-connector-c
 brew install mysql
 brew install redis
+# brew install mariadb  # in this case you have to 'brew unlink mysql' as they use the same binaries
 brew install python3
 brew install grafana
 brew install media-info
@@ -37,6 +38,7 @@ brew install hey
 brew install workflowy
 brew install jq
 brew install qrencode
+brew install ffmpeg
 
 # pdf tooling
 brew install pandoc
