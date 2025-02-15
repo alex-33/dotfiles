@@ -18,6 +18,7 @@ mock
 nbconvert
 nltk
 numpy
+openai-whisper
 openpyxl
 pandas
 patsy
