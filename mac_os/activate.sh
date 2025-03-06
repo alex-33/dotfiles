@@ -39,6 +39,7 @@ brew install workflowy
 brew install jq
 brew install qrencode
 brew install ffmpeg
+brew install graphviz
 
 # pdf tooling
 brew install pandoc
