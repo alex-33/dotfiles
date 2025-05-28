@@ -103,6 +103,7 @@ brew install --cask qlmarkdown
 brew install --cask wpsoffice
 brew install ollama
 brew install --cask anythingllm
+brew install loom
 
 # install messengers
 brew install --cask discord
