@@ -104,6 +104,7 @@ brew install --cask wpsoffice
 brew install ollama
 brew install --cask anythingllm
 brew install loom
+brew install minio-mc
 
 # install messengers
 brew install --cask discord
