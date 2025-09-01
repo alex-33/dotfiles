@@ -40,6 +40,7 @@ brew install jq
 brew install qrencode
 brew install ffmpeg
 brew install graphviz
+brew install uv
 
 # pdf tooling
 brew install pandoc
