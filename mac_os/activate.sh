@@ -104,7 +104,7 @@ brew install --cask qlmarkdown
 brew install --cask wpsoffice
 brew install ollama
 brew install --cask anythingllm
-brew install loom
+# brew install loom
 brew install minio-mc
 brew install --cask yandex-music
 
@@ -120,6 +120,8 @@ brew install --cask skype-for-business
 
 brew install qpdf
 brew install imagemagick
+brew install curl
+brew link curl --force
 
 brew tap microsoft/git
 # brew install --cask git-credential-manager-core  -- deprecated
