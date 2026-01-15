@@ -107,6 +107,7 @@ brew install --cask anythingllm
 # brew install loom
 brew install minio-mc
 brew install --cask yandex-music
+brew install --cask obsidian
 
 # install messengers
 brew install --cask discord
