@@ -108,6 +108,8 @@ brew install --cask anythingllm
 brew install minio-mc
 brew install --cask yandex-music
 brew install --cask obsidian
+brew install textual  # IRC client
+brew install --cask claude-code
 
 # install messengers
 brew install --cask discord
