@@ -38,7 +38,7 @@ brew install hey
 brew install workflowy
 brew install jq
 brew install qrencode
-brew install ffmpeg
+brew install ffmpeg-full
 brew install graphviz
 brew install uv
 
@@ -110,6 +110,7 @@ brew install --cask yandex-music
 brew install --cask obsidian
 brew install textual  # IRC client
 brew install --cask claude-code
+brew install --cask wispr-flow
 
 # install messengers
 brew install --cask discord
