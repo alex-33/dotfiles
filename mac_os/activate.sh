@@ -111,6 +111,7 @@ brew install --cask obsidian
 brew install textual  # IRC client
 brew install --cask claude-code
 brew install --cask wispr-flow
+brew install --cask chatgpt-atlas
 
 # install messengers
 brew install --cask discord
